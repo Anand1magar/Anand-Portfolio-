@@ -222,6 +222,9 @@ grid-template-columns: repeat(2,1fr);
         grid-template-columns: repeat(2,400px);
         gap: 3rem;
         padding: 3rem 0rem 0rem 9rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
   .sbox
         {
     
