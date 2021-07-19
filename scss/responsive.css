@@ -1,0 +1,313 @@
+@media (max-width: 1050px) {
+  .home {
+    width: 100%;
+    height: 35vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    display: none;
+  }
+  .home {
+    width: 100%;
+    height: 40vh;
+  }
+  .home .all-data {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .home .intro {
+    width: 50%;
+    height: auto;
+    margin-left: 2rem;
+  }
+  .home .intro h5 {
+    display: none;
+  }
+  .home .profile-pic {
+    width: 90%;
+  }
+  .mob-bar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    display: block;
+    z-index: 1;
+  }
+  .mob-bar .showbox {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .mob-bar .showbox .show-content {
+    width: 100%;
+    height: 15rem;
+    -webkit-transform: translateY(15rem);
+            transform: translateY(15rem);
+    background-color: #FAFAFD;
+    z-index: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .mob-bar .showbox .show-content a {
+    text-decoration: none;
+  }
+  .mob-bar .showbox .show-content .box {
+    width: 14rem;
+    height: auto;
+    text-align: center;
+  }
+  .mob-bar .showbox .show-content .box h2 {
+    margin: .5rem;
+  }
+  .mob-bar .bar-content {
+    width: 100%;
+    height: 5rem;
+    background-color: #FAFAFD;
+    z-index: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .mob-bar .bar-content h1 {
+    margin-left: 1.5rem;
+    font-size: 1.9rem;
+  }
+  .mob-bar .bar-content .box {
+    padding: 2rem;
+  }
+  .mob-bar .bar-content .box #app-btn {
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+  .About .about-content .aboutleft-side .imgbox {
+    width: 80%;
+    height: 15rem;
+    border-radius: .3rem;
+    background-image: url(iamdanger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 1rem;
+  }
+  .About .about-content .aboutright-side p {
+    width: 20rem;
+  }
+  .About .about-content .aboutright-side .experience-box {
+    width: 100%;
+  }
+  .skill {
+    margin-top: 2rem;
+  }
+  .skill .skill-box {
+    width: 100%;
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (400px)[2];
+        grid-template-columns: repeat(2, 400px);
+    gap: .2rem;
+    grid-row-gap: 1.5rem;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+  .skill .skill-box .sbox h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.2rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .skill .skill-box .sbox .progress-box {
+    width: 90%;
+    padding: 1rem 1rem 0rem 3rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .skill .skill-box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (300px)[2];
+        grid-template-columns: repeat(2, 300px);
+    gap: .1rem;
+    grid-row-gap: 1.5rem;
+    padding: 3rem 0rem 0rem 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill {
+    margin-top: 2rem;
+  }
+  .skill .skill-box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (600px)[1];
+        grid-template-columns: repeat(1, 600px);
+    gap: .1rem;
+    grid-row-gap: 1.5rem;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+  .skill .skill-box .sbox h3 {
+    font-size: 1.5rem;
+  }
+  .skill .skill-box .sbox .progress-box {
+    width: 90%;
+    padding: 1rem 1rem 0rem 9rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .home {
+    width: 100%;
+    height: 100%;
+  }
+  .home .all-data {
+    width: 100%;
+    height: auto;
+    margin: 3rem 0 0 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .home .all-data .intro {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .home .all-data .intro .btn {
+    background-color: #6C55E0;
+    border: 1px solid transparent;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .home .all-data .profile-pic {
+    width: 90%;
+  }
+  .mob-bar .showbox .show-content .box {
+    width: 8rem;
+    height: auto;
+    text-align: center;
+  }
+  .mob-bar .showbox .show-content .box .fas {
+    color: #25242cd5;
+  }
+  .mob-bar .showbox .show-content .box h2 {
+    margin: .5rem;
+    font-size: 1.2rem;
+    color: #25242cd5;
+  }
+  .About {
+    width: 100%;
+    height: auto;
+  }
+  .About .about-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .About .about-content .aboutleft-side .imgbox {
+    width: 60%;
+  }
+  .About .about-content .aboutright-side {
+    padding: 1rem 0rem 0rem 2rem;
+  }
+  .About .about-content .aboutright-side p {
+    width: 22rem;
+  }
+  .About .about-content .aboutright-side .experience-box {
+    width: 90%;
+    height: auto;
+  }
+  .About .about-content .aboutright-side .experience-box .exp {
+    width: 2rem;
+  }
+  .About .about-content .aboutright-side .experience-box .exp p {
+    font-size: .9rem;
+  }
+  .About .about-content .aboutright-side #but {
+    background-color: #6C55E0;
+  }
+  .About .about-content .aboutright-side .space {
+    display: block;
+    width: 3rem;
+    height: 6rem;
+  }
+  .skill {
+    margin-top: 0rem;
+  }
+  .skill .skill-box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (400px)[1];
+        grid-template-columns: repeat(1, 400px);
+    gap: .1rem;
+    grid-row-gap: 1.5rem;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+  .skill .skill-box .sbox .progress-box {
+    width: 90%;
+    padding: 1rem 1rem 0rem 4rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,144 @@
+@import "var";
+.portfolio{
+ width: 100%;   
+ height: auto;
+
+ text-align: center;
+
+ .slider{ 
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .uil-angle-left,.uil-angle-right{
+    font-size: 5rem;
+    margin: 1rem;
+  } 
+
+  
+  .slider-data{
+    padding-left: 2rem;
+      width: 50%;
+      overflow: hidden;
+      height: 15rem;
+      position: relative;
+      z-index: 0;
+
+      .slid-but{
+       width: 100%;
+       height: 100%;
+       position: absolute;
+       display: flex;
+      }
+      
+      display: flex;
+      .image-box{
+        width: 50%;
+          img{
+           width: 100%;
+           height: 100%;
+           object-fit: cover;   
+          }
+          
+
+      }
+
+      .text-box{
+        width: 50%;
+        height: 100%;
+        width: 50%;
+        text-align: left;
+        padding: 2rem;
+        h1{
+            font-weight: bold;
+        }
+        .btn{
+        background-color: $c-color;
+        border: none;
+        } 
+
+      }
+
+
+  }
+
+ }
+
+ .dots{
+    
+     width: 100%;
+     display: flex; //place in row
+     justify-content: center;
+     align-items: center;
+     
+     .dot1,.dot2,.dot3{
+     width: 12px;
+     height: 12px;
+     border-radius: 5rem;
+     background-color:  #838385;
+     margin-left: 1rem;
+     
+     }
+ }
+}
+
+
+@media (max-width: 900px){
+  .portfolio{
+  .slider{
+    
+    .slider-data{
+      width: 80%;     
+    }
+  }
+}
+}
+
+@media (max-width: 500px) {
+  .portfolio{
+
+    .slider{ 
+    
+    .uil-angle-left,.uil-angle-right{
+      font-size: 4rem;
+      margin: .1rem;
+    } 
+  height: auto;
+    .slider-data{
+      padding-left: 1rem;
+      
+      width: 100%;
+      height: 25rem;
+      .slid-but{
+        
+  
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        .image-box{
+          width: 100%;
+          height: auto;
+
+          #img{
+            width: 100%;
+            height: 100%;
+
+          }
+        }
+          .text-box{
+
+           height: auto; 
+           width: 100%;
+          }
+
+       
+      }
+      }
+    }
+  }
+}
+
