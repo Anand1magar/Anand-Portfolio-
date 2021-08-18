@@ -39,7 +39,7 @@
         .profile-pic {
             width: 90%;
         }
-    }
+    } 
 
     //   Mobile menu start*****************************888
     .mob-bar {
@@ -107,11 +107,13 @@
     .About {
         .about-content {
             .aboutleft-side {
+                // background-color: aqua;
                 .imgbox {
                     width: 80%;
+                    background-color: orange;
                     height: 15rem;
                     border-radius: .3rem;
-                    background-image: url(iamdanger.jpg);
+                    // background-image: url(anandonbridge.jpg);
                     @include imageprop;
                     margin-left: 1rem;
                 }

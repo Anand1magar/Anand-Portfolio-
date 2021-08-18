@@ -129,9 +129,9 @@
   }
   .About .about-content .aboutleft-side .imgbox {
     width: 80%;
+    background-color: orange;
     height: 15rem;
     border-radius: .3rem;
-    background-image: url(iamdanger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

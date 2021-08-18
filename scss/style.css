@@ -1386,6 +1386,7 @@ a {
 
 .home .profile-pic {
   width: 40%;
+  margin-left: 5em;
 }
 
 .home .profile-pic .svg-img {
@@ -1394,8 +1395,8 @@ a {
 }
 
 .home .profile-pic .img-blob {
-  width: 15rem;
-  height: 10rem;
+  width: 20rem;
+  height: 15rem;
 }
 
 .mob-bar {

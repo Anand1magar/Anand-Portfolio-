@@ -119,13 +119,14 @@ h5{
        }
     .profile-pic{
         width: 40%;
+        margin-left: 5em;
        .svg-img{
          width:70%;
          fill:$c-color;
         }
         .img-blob{
-            width: 15rem;
-            height: 10rem;
+            width: 20rem;
+            height: 15rem;
             }
     }
 }
