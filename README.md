@@ -1,7 +1,10 @@
-# Anand-Portfolio-
-Anand Portfolio written in HTML SCSS  JS 
 
-Visit site: https://anandmagar-portfolio.netlify.app/
+  # restaurant template 1
 
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">node js</a></code>
 
-![img](https://lh5.googleusercontent.com/kHqKZMk0pkYOP-W8ZYq5dT_Zd1-Eo7oXAgBoaBO908IXA3r1Wfl77OaO5SXvuZ9MTaGL_v6WNHslQEBqeIKoAyWQI1CcfXRe-dQANQgVFaC57F7Fbl8EOWpYHSuLwLuGdbyWdFn2)
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm run dev` to view project in browser
+  
